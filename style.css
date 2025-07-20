@@ -1,0 +1,248 @@
+body {
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background-color: blanchedalmond;
+}
+header {
+    background-color:#164d00;
+    width: 100%;
+    height: 200px;
+}
+nav {
+    width: 100%;
+    display: inline-block;
+    margin-left: 100px;
+}
+nav img {
+    margin-top: 25px;
+    margin-left: 100px;
+    width: 90px;
+    border-radius: 50%;
+
+}
+.sin {
+
+    font-size: 20px;
+    color: rgba(240, 236, 236, 0.829);
+    text-decoration: none;
+    padding-inline-start: 45px;
+}
+.sin:hover {
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+div {
+    padding-top: 75px;
+}
+#titulo {
+    font-weight: 600;
+    font-style: normal;
+    color:#227700;
+    font-size: 60px;
+    text-align: center;
+}
+#subtitulo {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 25px;
+    color: rgb(0, 0, 0);
+
+}
+#divi {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.divss {
+    transform: scale(1.1);
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: #22770093;
+    text-align: center;
+}
+.divss:hover {
+    transition: 0.5s;
+    transform: scale(1.2);
+    box-shadow: 3px 3px 3px 3px #929292;
+}
+#if {
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(2, 119, 2);
+}
+#if:hover {
+    color: rgb(111, 168, 4);
+    transition: 0.5s;
+}
+#oproje {
+    line-height: 20px;
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: justify;
+    margin-bottom: 60px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.proesca {
+    font-size: 18px;
+    color: #227700;
+    font-weight: bold;
+}
+.tag {
+    color: #154a00;
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-size: 29px;
+    margin-top: -35px;
+}
+.imgtag {
+    width: 150px;
+
+}
+#fim {
+    font-size: 18px;
+    margin-top: 50px;
+    width: 100%;
+    height: 200px;
+    background-color: #164d00;
+}
+#fimtxt {
+    padding-top: 90px;
+    padding-left: 50px;
+    color: rgba(240, 236, 236, 0.829);
+}
+#coracao {
+    font-size: 20px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+#infosh1 {
+    margin-top: -25px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:#227700;
+    background-color: #2277004b;
+}
+#nosso {
+    margin-top: -25px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:#227700;
+    background-color: #2277004b;
+}
+#obiesp {
+    margin-top: -25px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:#227700;
+    background-color: #2277004b;
+}
+.noobintxt {
+    line-height: 20px;
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: justify;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+#deonde {
+    color:#227700;
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-size: 25px;
+    margin-top: -35px;
+    text-align: center;
+    font-weight: bold;
+}
+#nois {
+    margin-top: -25px;
+    margin-bottom: 70px;
+    font-weight: bold;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:#227700;
+    background-color: #2277004b;
+}
+.txts {
+    line-height: 20px;
+    font-size: 18px;
+    margin-top: 30px;
+    text-align: justify;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+#sevc {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(0, 0, 0);
+}
+#mtobg {
+    color:#227700;
+}
+.meninasdigitais {
+    text-align: center;
+    color:#227700;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#min {
+    margin-top: -5%;
+    width: 500px;
+    margin-left: 45%;
+
+}
+.email {
+    text-align: center;
+    font-size: 20px;
+}
+#professora {
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 20px;
+}
