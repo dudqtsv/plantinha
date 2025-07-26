@@ -1,5 +1,6 @@
+/* Customização do site */
 body {
-    font-family: "SUSE", sans-serif;
+    font-family: "SUSE", sans-serif; /* foi pego do google junto da fonte */
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
@@ -12,26 +13,24 @@ header {
 }
 nav {
     width: 100%;
-    display: inline-block;
-    margin-left: 100px;
+    display: inline-block; /* maneira como os objetos dentro do <nav> devem se comportar */
+    margin-left: 100px; /* margin determina um espaço depois do término do objeto */
 }
 nav img {
     margin-top: 25px;
     margin-left: 100px;
     width: 90px;
-    border-radius: 50%;
-
+    border-radius: 50%; /* arredondamento da borda */
 }
 .sin {
-
     font-size: 20px;
     color: rgba(240, 236, 236, 0.829);
     text-decoration: none;
-    padding-inline-start: 45px;
+    padding-inline-start: 10vh; /* definir o preenchimento (padding) do lado inicial da linha de texto */
 }
-.sin:hover {
+.sin:hover { /* hover = quando o mouse passar em cima */
     color: rgb(255, 255, 255);
-    transition: 0.5s;
+    transition: 0.5s; /* tempo para tal coisa acontecer (no caso mudar de cor) */
 }
 div {
     padding-top: 75px;
@@ -123,6 +122,12 @@ div {
     font-size: 20px;
     padding-left: 3px;
     padding-right: 3px;
+}
+#infos {
+    margin-top: -6vh;
+}
+#eqp {
+    margin-top: -6vh;
 }
 #infosh1 {
     margin-top: -25px;
