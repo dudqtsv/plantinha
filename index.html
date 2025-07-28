@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Plantinha</title> <!-- título na aba do navegador -->
     <link rel="stylesheet" href="reset.css"> <!-- linkar o reset -->
-     <!-- linkar a fonte com seu site -->
+    <!-- linkar a fonte com seu site -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet">
@@ -15,6 +15,7 @@
     <!-- colocar a fotinha na aba do navegador -->
     <link rel="shortcut icon" href="img/plantinha" type="image/x-icon">
 </head>
+
 <body>
     <header>
         <nav>
@@ -44,19 +45,59 @@
     </div>
     <div id="objtv">
         <h1 id="nosso">Nosso Objetivo</h1>
-        <p id="oproje">O projeto Plantinha desenvolvido pelo RENACEE-MD tem como objetivo capacitar estudantes de primeiro ano que cursam Técnico em Informática para Internet Integrado ao Ensino Médio no
-            <a id="if" target="_blank" href="https://ifgoiano.edu.br/home/index.php/ceres.html">IF Goiano - Campus Ceres</a> em áreas como Impressão 3D, Robótica e criação de Websites.
+        <p id="oproje">O projeto Plantinha desenvolvido pelo RENACEE-MD tem como objetivo capacitar estudantes de
+            primeiro ano que cursam Técnico em Informática para Internet Integrado ao Ensino Médio no
+            <a id="if" target="_blank" href="https://ifgoiano.edu.br/home/index.php/ceres.html">IF Goiano - Campus
+                Ceres</a> em áreas como Impressão 3D, Robótica e criação de Websites.
         </p>
     </div>
     <div id="infos">
         <h1 id="infosh1">Etapas da Oficina:</h1>
-        <h2 class="txts">1º Etapa: Montagem do Sensor de Umidade com Arduino e Programação da Placa de LED</h2>
+        <h2 class="txts">1º Etapa: Montando o Sistema de Umidade do Projeto Plantinha</h2>
         <p class="txts">
-            Na primeira etapa, os participantes aprenderam a montar um sensor de umidade do solo utilizando o Arduino.
-            Essa parte envolveu o manuseio de componentes eletrônicos e a programação da placa para que os LEDs
-            indicassem
-            o nível de umidade da terra, simulando uma forma simples de automação no cuidado com plantas.
+            Neste tutorial, vamos criar um protótipo que detecta a umidade do solo e indica se a planta precisa de água.
+            Tudo isso será feito com montagem simples na protoboard e programação por blocos, utilizando o PictoBlox.
         </p>
+        <p class="txts">Materiais Necessários:</p>
+        <ul class="txts">
+            <li>1 - Protoboard (placa de ensaio)</li>
+            <li>1 - Sensor de umidade do solo</li>
+            <li>1 - Placa controladora (como Arduino Uno)</li>
+            <li>1 - LED (ou buzzer) para sinalizar quando a planta está com sede</li>
+            <li>Cabos de conexão (jumpers)</li>
+            <li>Computador com o PictoBlox instalado</li>
+        </ul>
+        <p class="txts">Conceitos Envolvidos:</p>
+         <ul class="txts">
+            <li>Protoboard: Usada para montar o circuito sem necessidade de solda.</li>
+            <li>Sensor de umidade do solo: Detecta a quantidade de água no solo e envia esse valor ao microcontrolador.</li>
+            <li>Placa controladora: Placa que interpreta os dados recebidos e envia comandos (como acender um LED).</li>
+            <li>Programação em blocos (PictoBlox): Facilita o entendimento da lógica de programação com blocos visuais e intuitivos.</li>
+        </ul>
+
+        <p class="txts"><b>Etapas de Montagem</b></p>
+        <ol class="txts">
+            <li>Montagem do Circuito:
+                <ul>
+                    <li>Conecte o sensor de umidade à protoboard.</li>
+                    <li>Faça a ligação do sensor ao Arduino (VCC, GND e saída analógica no pino A0).</li>
+                    <li>Conecte o LED (ou buzzer) ao pino digital (por exemplo, D13).</li>
+                    <li>Verifique se tudo está firme e bem encaixado.</li>
+                </ul>
+            </li>
+            <li><br>Inserção do Sensor no Solo:
+                <ul>
+                    <li>Insira o sensor de umidade no solo da plantinha até cerca da metade.</li>
+                </ul>
+            </li>
+            <li><br>Programação com PictoBlox:
+                <ul>
+                    <li>Abra o PictoBlox.</li>
+                    <li>Selecione o modo "Arduino" e conecte sua placa.</li>
+                    <li>No modo "Upload", monte seu código usando blocos.</li>
+                </ul>
+            </li>
+        </ol>
 
         <h2 class="txts">2º Etapa: Modelagem 3D do Vaso da Planta no Tinkercad</h2>
         <p class="txts">
@@ -68,20 +109,34 @@
 
         <h2 class="txts">3º Etapa: Criação do Site Tutorial da Oficina</h2>
         <p class="txts">
-           Na última etapa, os estudantes participaram da criação deste site com o objetivo de
+            Na última etapa, os estudantes participaram da criação deste site com o objetivo de
             documentar e compartilhar todo o processo do projeto. Aqui, os visitantes podem
-             acessar tutoriais, imagens e informações sobre como replicar as atividades da oficina, 
-             incentivando outras pessoas a explorarem a tecnologia de forma prática e educativa.
+            acessar tutoriais, imagens e informações sobre como replicar as atividades da oficina,
+            incentivando outras pessoas a explorarem a tecnologia de forma prática e educativa.
         </p>
     </div>
     <div id="nos">
         <h1 id="nois">Nós</h1>
-        <h2 id="deonde">De onde saiu a ideia de criarmos esse projeto?
+        <h2 id="deonde">Quem somos?
         </h2>
-        <p class="txts">O projeto surgiu em 2025 a partir de um trabalho da disciplina de Metodologia Científica, que
-            consistia na criação de um projeto de extensão ou ensino. Nossa professora, Ramayane, apresentou ao nosso
-            grupo a proposta de desenvolvermos um projeto voltado para a capacitação de servidores terceirizados do
-            instituto por meio da informática, uma vez que essa área poderia ser melhor abordada e explorada.
+        <p class="txts">O RENACEE MD (Rede Nacional de Educação e Extensão Meninas Digitais) é uma iniciativa que visa
+            fortalecer e conectar projetos locais voltados para a inclusão e permanência de meninas e mulheres na área
+            da Computação e Tecnologias da Informação. Acreditamos que, por meio de ações educativas, colaborativas e
+            inspiradoras, é possível transformar realidades e construir um futuro mais diverso e justo na
+            tecnologia.</p>
+
+        <p class="txts">Alinhado a essa rede, o Meninas Digitais no Cerrado é um projeto parceiro, criado em 2016 no IF
+            Goiano –
+            Campus Ceres. Ele surgiu com o desejo de tornar o campus uma instituição colaboradora da Sociedade
+            Brasileira de Computação (SBC), no âmbito do programa nacional Meninas Digitais, existente desde 2011. Seu
+            principal objetivo é divulgar a área da Computação e despertar o interesse de estudantes de cursos técnicos
+            e superiores da área de Tecnologia da Informação (TI) da cidade de Ceres e região do Vale do São Patrício,
+            além de demais campi do IF Goiano incentivando-as a seguir carreira na área.</p>
+
+        <p class="txts">
+            Por meio de oficinas, palestras, eventos e projetos de extensão, buscamos criar espaços seguros, acolhedores
+            e motivadores para que meninas possam se ver e se desenvolver como futuras profissionais da tecnologia.
+
         </p>
     </div>
     <div id="eqp">
@@ -111,4 +166,5 @@
         <img id="min" src="img/md.png" alt="logo mdc if e nepeti">
     </footer>
 </body>
+
 </html>
