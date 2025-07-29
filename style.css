@@ -211,6 +211,15 @@ div {
     padding-left: 200px;
     padding-right: 200px;
 }
+.titulos{
+    color:#227700;
+    line-height: 20px;
+    font-size: 18px;
+    margin-top: 30px;
+    text-align: justify;
+    padding-left: 200px;
+    padding-right: 200px;
+}
 #sevc {
     margin-top: 50px;
     margin-bottom: 50px;
