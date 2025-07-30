@@ -12,13 +12,15 @@ header {
     height: 200px;
 }
 nav {
-    width: 100%;
+    font-size: 20px;
+    width: 50%;
     display: inline-block; /* maneira como os objetos dentro do <nav> devem se comportar */
     margin-left: 100px; /* margin determina um espaço depois do término do objeto */
+    margin-top: 10vh;
 }
-nav img {
-    margin-top: 25px;
-    margin-left: 100px;
+#plantinha {
+    margin-top: -60px;
+    margin-left: 80vh;
     width: 90px;
     border-radius: 50%; /* arredondamento da borda */
 }
@@ -83,7 +85,7 @@ div {
 }
 #oproje {
     line-height: 20px;
-    font-size: 18px;
+    font-size: 20px;
     margin-top: 20px;
     text-align: justify;
     margin-bottom: 60px;
@@ -104,7 +106,6 @@ div {
 }
 .imgtag {
     width: 150px;
-
 }
 #fim {
     font-size: 18px;
@@ -157,6 +158,16 @@ div {
     color:#227700;
     background-color: #2277004b;
 }
+.titulotxts {
+    color:#227700af;
+    line-height: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+    text-align: justify;
+    padding-left: 200px;
+    padding-right: 200px;
+}
 #obiesp {
     margin-top: -25px;
     margin-bottom: 50px;
@@ -205,16 +216,17 @@ div {
 }
 .txts {
     line-height: 20px;
-    font-size: 18px;
+    font-size: 20px;
     margin-top: 30px;
     text-align: justify;
     padding-left: 200px;
     padding-right: 200px;
 }
-.titulos{
+.titulos {
     color:#227700;
     line-height: 20px;
-    font-size: 18px;
+    font-size: 22px;
+    font-weight: bold;
     margin-top: 30px;
     text-align: justify;
     padding-left: 200px;
@@ -246,7 +258,7 @@ div {
 }
 #min {
     margin-top: -5%;
-    width: 500px;
+    width: 520px;
     margin-left: 45%;
 
 }
