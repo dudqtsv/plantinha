@@ -11,12 +11,17 @@ header {
     width: 100%;
     height: 200px;
 }
+.spangit {
+    font-weight: bold;
+}
 nav {
     font-size: 20px;
-    width: 50%;
+    width: 20%;
     display: inline-block; /* maneira como os objetos dentro do <nav> devem se comportar */
     margin-left: 100px; /* margin determina um espaço depois do término do objeto */
     margin-top: 10vh;
+    display: inline-flex;
+    justify-content: space-between;
 }
 #plantinha {
     margin-top: -60px;
@@ -50,7 +55,6 @@ div {
     text-align: center;
     padding-top: 25px;
     color: rgb(0, 0, 0);
-
 }
 #divi {
     display: flex;
