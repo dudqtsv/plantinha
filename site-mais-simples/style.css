@@ -1,0 +1,231 @@
+/* Customização do site */
+body {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background-color: blanchedalmond;
+}
+header {
+    background-color:#164d00;
+    width: 100%;
+    height: 200px;
+}
+nav {
+    font-size: 20px;
+    width: 20%;
+    display: inline-block; /* maneira como os objetos dentro do <nav> devem se comportar */
+    margin-left: 100px; /* margin determina um espaço depois do término do objeto */
+    margin-top: 10vh;
+    display: inline-flex;
+    justify-content: space-between;
+    
+}
+#logoMDC {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 80vh;
+    width: 90px;
+    border-radius: 50%; /* arredondamento da borda */
+}
+.sin {
+    font-size: 20px;
+    color: rgba(240, 236, 236, 0.829);
+    text-decoration: none;
+    padding-inline-start: 10vh; /* definir o preenchimento (padding) do lado inicial da linha de texto */
+}
+.sin:hover { /* hover = quando o mouse passar em cima */
+    color: rgb(255, 255, 255);
+    transition: 0.5s; /* tempo para tal coisa acontecer (no caso mudar de cor) */
+}
+div {
+    padding-top: 75px;
+}
+#titulo {
+    font-weight: 600;
+    font-style: normal;
+    color:#227700;
+    font-size: 60px;
+    text-align: center;
+}
+#subtitulo {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 25px;
+    color: rgb(0, 0, 0);
+}
+
+
+.divss:hover {
+    transition: 0.5s;
+    transform: scale(1.2);
+    box-shadow: 3px 3px 3px 3px #929292;
+}
+#if {
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(2, 119, 2);
+}
+#if:hover {
+    color: rgb(111, 168, 4);
+    transition: 0.5s;
+}
+#oproje {
+    line-height: 20px;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: justify;
+    margin-bottom: 60px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.proesca {
+    font-size: 18px;
+    color: #227700;
+    font-weight: bold;
+}
+.tag {
+    color:#0e3000;
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-size: 29px;
+    margin-top: -35px;
+}
+.imgtag {
+    width: 150px;
+}
+#fim {
+    font-size: 18px;
+    margin-top: 50px;
+    width: 100%;
+    height: 200px;
+    background-color: #164d00;
+}
+#fimtxt {
+    padding-top: 90px;
+    padding-left: 50px;
+    color: rgba(240, 236, 236, 0.829);
+}
+#infos {
+    margin-top: -6vh;
+}
+#eqp {
+    margin-top: -6vh;
+}
+
+.tituloVerdeClaro{
+    margin-top: -25px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:#0e3000;
+    background-color: #2277004b;
+}
+.tituloVerde {
+    color:#1a5b00;
+    line-height: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+    text-align: justify;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+#obiesp {
+    margin-top: -25px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:#227700;
+    background-color: #2277004b;
+}
+.noobintxt {
+    line-height: 20px;
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: justify;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+#deonde {
+    color:#227700;
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-size: 25px;
+    margin-top: -35px;
+    text-align: center;
+    font-weight: bold;
+}
+.txts {
+    line-height: 20px;
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: justify;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.titulos {
+    margin-top: 25px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    scale: 0.9;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:#ffffff;
+    background-color: #144700bc;
+}
+#sevc {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(0, 0, 0);
+}
+#mtobg {
+    color:#227700;
+}
+
+#min {
+    margin-top: -5%;
+    width: 520px;
+    margin-left: 700px;
+
+}
+
+#arduino, #projeto_completo, #vaso, #site {
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+
+
