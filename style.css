@@ -3,11 +3,12 @@ body {
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
-    background-color: blanchedalmond;
+    background-color: rgb(255, 225, 225);
     line-height: 1.6;
 }
+
 header {
-    background-color:#164d00;
+    background-color:#850033;
     width: 100%;
     min-height: 80px;
     display: flex;
@@ -24,7 +25,6 @@ nav {
     justify-content: center;
     width: 100%;
 }
-
 .sin {
     font-size: 1rem;
     color: rgba(240, 236, 236, 0.9);
@@ -36,39 +36,40 @@ nav {
 }
 
 #plantinha {
-    width: 70px;
+    width: 90px;
     border-radius: 50%;
     margin: 0 auto;
 }
 
 #titulo {
-    font-weight: 600;
-    color:#227700;
-    font-size: clamp(1.8rem, 5vw, 3rem);
+    color:#bb0048;
     text-align: center;
     margin: 1rem auto;
     max-width: 90%;
+    font-weight: bold;
+    font-size: 2rem;
 }
 #subtitulo {
     font-weight: 500;
-    font-size: clamp(1rem, 3vw, 1.3rem);
+    font-size: clamp(1.1rem, 1.5vw, 1rem);
     text-align: center;
     margin: 0 auto 2rem auto;
     max-width: 90%;
+    color: rgb(224, 172, 0);
 }
 
 #divi {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 1rem;
+    gap: 4rem;
     padding: 2rem 1rem;
 }
 .divss {
-    border-radius: 20px;
+    border-radius: 50%;
     width: 180px;
     height: 180px;
-    background-color: #22770093;
+    background-color: #85003393;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -89,7 +90,7 @@ nav {
 }
 .imgtag {
     width: 170px;
-    border-radius: 15px;
+    border-radius: 50%;
 }
 
 #oproje,
@@ -98,17 +99,18 @@ nav {
     max-width: 800px;
     margin: 1rem auto;
     padding: 0 1rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-align: left;
     line-height: 1.6;
 }
 .titulotxts {
-    color:#1a5b00;
+    color:#bb0048;
     font-weight: bold;
     text-align: center;
+    font-size: 1.4rem;
 }
 
-#nosso, #infosh1, #nois, .titulos {
+#infosh1, #nois, .titulos {
     font-weight: bold;
     text-align: center;
     font-size: 1.4rem;
@@ -117,12 +119,51 @@ nav {
     border-radius: 20px;
     max-width: 90%;
 }
-#nosso, #infosh1, #nois {
-    background-color: #2277004b;
-    color:#0e3000;
+
+/* ===== SEÇÃO OBJETIVO ===== */
+#objtv {
+    margin-top: 2rem;
+    background-color: #ffd4d4;
+    padding: 1.5rem 2rem;
+}
+
+/* título da seção */
+#nosso {
+    color: #bb0048;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: left;
+    padding-left: 25rem;
+}
+
+/* agrupa texto + imagem lado a lado */
+#objtv .conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-direction: row;
+}
+
+#objtv .texto {
+    flex: 1 1 60%;
+    max-width: 600px;
+    font-size: 1.3rem;
+    margin: 2rem auto 0rem auto;
+}
+
+#moça {
+    flex: 0 0 auto;
+    max-width: 250px;
+    height: auto;
+}
+
+#infosh1, #nois {
+    background-color: #8500334b;
+    color:#850033;
 }
 .titulos {
-    background-color: #144700bc;
+    background-color: #850033;
     color: #fff;
 }
 
@@ -130,31 +171,37 @@ nav {
     margin: 2rem auto;
     font-weight: bold;
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.8rem;
     max-width: 90%;
+}
+#mtobg {
+    color: #850033;
+}
+#eqp {
+    margin-bottom: 2rem;
 }
 .meninasdigitais {
     text-align: center;
-    color:#227700;
+    color:#850033;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 1.4rem;
     margin-top: 1rem;
 }
 .email {
     text-align: center;
-    font-size: 0.95rem;
+    font-size: 1.2rem;
 }
 #if {
     text-decoration: none;
-    color: #227700;
+    color: #850033;
 }
 #if:hover {
-    color: #164d00;
+    color: #850033;
     transition: 0.7s;
 }
 
 #fim {
-    background-color: #164d00;
+    background-color: #850033;
     text-align: center;
     padding: 2rem 1rem;
     color: rgba(240,236,236,0.9);
@@ -162,20 +209,33 @@ nav {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-#fimtxt {
-    font-size: 0.95rem;
-    margin-bottom: 1.5rem;
-    order: 1;
-}
-#min {
-    max-width: 400px;
-    width: 100%;
-    height: auto;
-    margin-top: 1.5rem;
-    order: 2;
+    gap: 1rem;
 }
 
+#fimtxt {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+/* wrapper que "corta" visualmente o espaço extra */
+.logo-crop {
+    width: 1000px;       /* largura da "janela" do logo */
+    max-width: 90%;
+    height: 120px;      /* altura da "janela" */
+    overflow: hidden;   /* corta o excesso da imagem */
+    display: block;
+}
+
+.logo-crop img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;   /* cobre a caixa, cortando espaço transparente */
+    object-position: center;
+    display: block;
+}
+
+
+/* ===== RESPONSIVIDADE ===== */
 @media (max-width: 768px) {
     nav {
         flex-direction: column;
@@ -187,7 +247,7 @@ nav {
         height: 140px;
     }
     .imgtag {
-        width: 80px;
+        width: 130px;
     }
     #titulo {
         font-size: 2rem;
@@ -197,9 +257,29 @@ nav {
     }
     #fimtxt {
         margin-bottom: 2rem; 
-}
-}
+    }
 
+    /* objtv responsivo */
+    #objtv {
+        flex-direction: column; /* só no mobile empilha */
+        text-align: center;
+    }
+
+    #objtv .conteudo {
+        flex-direction: column;
+        text-align: center;
+    }
+    #nosso {
+        text-align: center; /* no mobile fica centralizado */
+        font-size: 1.6rem;
+        padding-left: 2rem;
+    }
+    #moça {
+        max-width: 70%;
+        margin-top: 1rem;
+    }
+    .logo-crop { width: 400px; height: 100px; }
+}
 @media (max-width: 480px) {
     #titulo {
         font-size: 1.6rem;
@@ -219,4 +299,6 @@ nav {
         max-width: 180px;
         margin-top: 2rem;
     }
+    .logo-crop { width: 480px; height: 70px; }
+    
 }
