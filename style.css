@@ -8,25 +8,24 @@ body {
 }
 
 header {
-    background-color:#850033;
+    background-color: #850033;
     width: 100%;
     min-height: 80px;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr; /* esquerda | centro | direita */
     align-items: center;
     padding: 1rem;
-    flex-wrap: wrap;
 }
 
 nav {
+    margin-left: 1.3rem;
     display: flex;
-    gap: 1.2rem;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
+    gap: 2rem;
+    justify-content: flex-start; /* links na esquerda */
 }
+
 .sin {
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: rgba(240, 236, 236, 0.9);
     text-decoration: none;
 }
@@ -38,8 +37,9 @@ nav {
 #plantinha {
     width: 90px;
     border-radius: 50%;
-    margin: 0 auto;
+    justify-self: center; /* garante que fique no centro */
 }
+
 
 #titulo {
     color:#bb0048;
@@ -196,7 +196,7 @@ nav {
     color: #850033;
 }
 #if:hover {
-    color: #850033;
+    color: #196b00;
     transition: 0.7s;
 }
 
