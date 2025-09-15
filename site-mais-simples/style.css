@@ -96,20 +96,30 @@ div {
     width: 150px;
 }
 #fim {
-    font-size: 18px;
-    margin-top: 50px;
     width: 100%;
-    height: 200px;
     background-color: #164d00;
-}
-#fimtxt {
-    padding-top: 90px;
-    padding-left: 50px;
-    color: rgba(240, 236, 236, 0.829);
-}
-.min {
+    padding: 20px 40px;
 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px; /* espaço entre texto e imagem */
 }
+
+#fimtxt {
+    font-size: 18px;
+    color: rgba(240, 236, 236, 0.9);
+    margin: 0;
+}
+
+#min {
+    max-width: 750px; /* limita a largura máxima */
+    max-height: 600px; /* limita a altura máxima */
+    width: 100%;       /* ocupa até 100% do espaço disponível */
+    height: auto;      /* mantém proporção */
+    object-fit: contain;
+}
+
 #infos {
     margin-top: -6vh;
 }
@@ -211,13 +221,6 @@ div {
 }
 #mtobg {
     color:#227700;
-}
-
-#min {
-    margin-top: -5%;
-    width: 520px;
-    margin-left: 700px;
-
 }
 
 #arduino, #projeto_completo, #vaso, #site {
