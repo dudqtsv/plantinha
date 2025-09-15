@@ -11,23 +11,22 @@ header {
     background-color: #850033;
     width: 100%;
     min-height: 80px;
-    display: grid;
-    grid-template-columns: 1fr auto 1fr; /* esquerda | centro | direita */
+    display: flex;
+    justify-content: space-between; /* separa esquerda e direita */
     align-items: center;
-    padding: 1rem;
+    padding: 0.7rem 2rem; /* 👈 dá espaçamento lateral */
 }
 
 nav {
-    margin-left: 1.3rem;
     display: flex;
-    gap: 2rem;
-    justify-content: flex-start; /* links na esquerda */
+    gap: 1.5rem; /* espaçamento entre os links */
 }
 
 .sin {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: rgba(240, 236, 236, 0.9);
     text-decoration: none;
+    padding: 0 0 0 2rem;
 }
 .sin:hover {
     color: #fff;
@@ -37,7 +36,7 @@ nav {
 #plantinha {
     width: 90px;
     border-radius: 50%;
-    justify-self: center; /* garante que fique no centro */
+    margin-right: 7rem;
 }
 
 
