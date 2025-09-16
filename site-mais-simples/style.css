@@ -1,15 +1,21 @@
 /* Customização do site */
 body {
-    font-family: "Open Sans", sans-serif;
+    font-family: "SUSE", sans-serif;
     font-optical-sizing: auto;
-    font-weight: weight;
+    font-weight: 600;
     font-style: normal;
-    background-color: blanchedalmond;
+    background-color: rgb(255, 225, 225);
+    line-height: 1.6;
+
 }
 header {
-    background-color:#164d00;
+    background-color: #850033;
     width: 100%;
-    height: 200px;
+    min-height: 80px;
+    display: flex;
+    justify-content: space-between; /* separa esquerda e direita */
+    align-items: center;
+    padding: 0.7rem 2rem; /* 👈 dá espaçamento lateral */
 }
 nav {
     font-size: 20px;
@@ -29,14 +35,14 @@ nav {
     border-radius: 50%; /* arredondamento da borda */
 }
 .sin {
-    font-size: 20px;
-    color: rgba(240, 236, 236, 0.829);
+    font-size: 1.3rem;
+    color: rgba(240, 236, 236, 0.9);
     text-decoration: none;
-    padding-inline-start: 10vh; /* definir o preenchimento (padding) do lado inicial da linha de texto */
+    padding: 0 0 0 2rem;
 }
-.sin:hover { /* hover = quando o mouse passar em cima */
-    color: rgb(255, 255, 255);
-    transition: 0.5s; /* tempo para tal coisa acontecer (no caso mudar de cor) */
+.sin:hover {
+    color: #fff;
+    transition: 0.3s;
 }
 div {
     padding-top: 75px;
@@ -44,7 +50,7 @@ div {
 #titulo {
     font-weight: 600;
     font-style: normal;
-    color:#227700;
+    color:#bb0048;
     font-size: 60px;
     text-align: center;
 }
@@ -65,10 +71,10 @@ div {
 #if {
     font-weight: bold;
     text-decoration: none;
-    color: rgb(2, 119, 2);
+    color: #bb0048;
 }
 #if:hover {
-    color: rgb(111, 168, 4);
+    color: #ff0066;
     transition: 0.5s;
 }
 #oproje {
@@ -82,11 +88,11 @@ div {
 }
 .proesca {
     font-size: 18px;
-    color: #227700;
+    color:#bb0048;
     font-weight: bold;
 }
 .tag {
-    color:#0e3000;
+    color:#bb0048;
     font-weight: 500;
     margin-bottom: 20px;
     font-size: 29px;
@@ -96,14 +102,15 @@ div {
     width: 150px;
 }
 #fim {
-    width: 100%;
-    background-color: #164d00;
-    padding: 20px 40px;
-
+    background-color: #850033;
+    text-align: center;
+    padding: 2rem 1rem;
+    color: rgba(240,236,236,0.9);
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    gap: 20px; /* espaço entre texto e imagem */
+    justify-content: center;
+    gap: 1rem;
 }
 
 #fimtxt {
@@ -127,7 +134,7 @@ div {
     margin-top: -6vh;
 }
 
-.tituloVerdeClaro{
+.titulorosaClaro{
     margin-top: -25px;
     margin-bottom: 50px;
     font-weight: bold;
@@ -138,11 +145,11 @@ div {
     font-size: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
-    color:#0e3000;
-    background-color: #2277004b;
+    color:#ffffff;
+    background-color:#bb0048;
 }
-.tituloVerde {
-    color:#1a5b00;
+.titulotxts{
+    color:#bb0048;
     line-height: 20px;
     font-size: 20px;
     font-weight: bold;
@@ -175,7 +182,7 @@ div {
     margin-right: 200px;
 }
 #deonde {
-    color:#227700;
+    color:#bb0048;
     font-weight: 500;
     margin-bottom: 20px;
     font-size: 25px;
@@ -204,7 +211,7 @@ div {
     padding-top: 10px;
     padding-bottom: 10px;
     color:#ffffff;
-    background-color: #144700bc;
+    background-color: #bb0048;
 }
 #sevc {
     margin-top: 50px;
@@ -219,9 +226,7 @@ div {
     padding-bottom: 10px;
     color: rgb(0, 0, 0);
 }
-#mtobg {
-    color:#227700;
-}
+
 
 #arduino, #projeto_completo, #vaso, #site {
     width: 400px;
